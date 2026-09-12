@@ -596,12 +596,15 @@ void CButtonDoc::OnActionStart()
 	
 
 	CString s = toString();
+	// EDIT: hardcoded absolute path to the original author's machine
 	CFile tmpFile("e:\\tmp\\tmp.cfg",CFile::modeCreate | CFile::modeWrite );
 	tmpFile.Write(s,s.GetLength());
 	tmpFile.Close();
 
+	// EDIT: hardcoded absolute path to the original author's machine
 	SetCurrentDirectory("e:\\plime_win\\plime_work");//points to the directory of PLIME
  
+	// EDIT: hardcoded absolute path to the original author's machine
 	int res = _execl("e:\\Plime_win\\Plime_win\\debug\\Plime_win.exe","-F e:\\tmp\\tmp.cfg",NULL);
 	//shows the path to plime_win.exe
 
