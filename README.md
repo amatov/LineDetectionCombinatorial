@@ -14,6 +14,8 @@ the Visual C++ 6.0 / MFC build requirement.
   `ReadMe.txt`/`Resource.h`/`StdAfx.*` with `Button` (see
   DEPENDENCIES.md).
 - `bmp3/` -- a separate, self-contained console project.
+- `media/MatovGUI2001.png` -- a screenshot showing how the `Button` GUI
+  works.
 - `reports/` -- a conference poster PDF.
 - Hardcoded absolute paths to the original author's machine are flagged
   with a `// EDIT:` comment directly above them.
