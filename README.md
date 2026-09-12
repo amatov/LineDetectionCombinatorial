@@ -17,8 +17,6 @@ the Visual C++ 6.0 / MFC build requirement.
 - `media/MatovGUI2001.png` -- a screenshot showing how the `Button` GUI
   works.
 - `reports/` -- a conference poster PDF.
-- Hardcoded absolute paths to the original author's machine are flagged
-  with a `// EDIT:` comment directly above them.
 - **License:** see [LICENSE](LICENSE) -- research/educational use, with
   separate terms noted for the bundled third-party `PLIME/` folder.
 
