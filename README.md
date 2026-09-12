@@ -13,7 +13,8 @@ the Visual C++ 6.0 / MFC build requirement.
 - `Proba.*` -- a separate DLL project, sharing this directory's
   `ReadMe.txt`/`Resource.h`/`StdAfx.*` with `Button` (see
   DEPENDENCIES.md).
-- `bmp3/` -- a separate, self-contained console project.
+- `bmp3/` -- a separate, self-contained console project that displays
+  a BMP image via SDL (unrelated to line detection).
 - `media/MatovGUI2001.png` -- a screenshot of the `Button` GUI
   demonstrating detection of primitive shapes (lines, circles, and
   ellipses) in an image.

@@ -2,10 +2,13 @@
 
 ## Build environment
 
-`Button.dsp`, `Proba.dsp`, and `bmp3/bmp3.dsp` are **Visual C++ 6.0**
-project files using **MFC** (Microsoft Foundation Classes). Building
-them requires Visual C++ 6.0 (or a compatible/migrated toolchain) with
-MFC support; there is no modern (`.sln`/`.vcxproj`) project file.
+`Button.dsp` and `Proba.dsp` are **Visual C++ 6.0** MFC (Microsoft
+Foundation Classes) project files. `bmp3/bmp3.dsp` is a plain Visual
+C++ 6.0 console-application project (not MFC) that additionally
+depends on **DevIL** (`il/il.h`, `il/ilu.h`) and **SDL 1.x** (`SDL.h`),
+neither of which is bundled in this repository. Building any of these
+requires Visual C++ 6.0 (or a compatible/migrated toolchain); there is
+no modern (`.sln`/`.vcxproj`) project file.
 
 `PLIME/` is a separate, third-party C/C++ codebase with its own
 `makefile`; see LICENSE for its origin. It bundles its own X11 and
