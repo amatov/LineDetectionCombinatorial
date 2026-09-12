@@ -14,7 +14,7 @@ the Visual C++ 6.0 / MFC build requirement.
   `ReadMe.txt`/`Resource.h`/`StdAfx.*` with `Button` (see
   DEPENDENCIES.md).
 - `bmp3/` -- a separate, self-contained console project that displays
-  a BMP image via SDL (unrelated to line detection).
+  a BMP image via SDL.
 - `media/MatovGUI2001.png` -- a screenshot of the computer vision GUI
   demonstrating detection of primitive shapes (lines, circles, and
   ellipses) in an image.
