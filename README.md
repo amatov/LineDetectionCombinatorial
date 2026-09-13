@@ -1,3 +1,5 @@
+## LineDetectionCombinatorial
+
 ## Quick start
 
 This repository contains the Visual C++ 6.0 MFC GUI (`Button`) for a
@@ -15,7 +17,7 @@ the Visual C++ 6.0 / MFC build requirement.
   DEPENDENCIES.md).
 - `bmp3/` -- a separate, self-contained console project that displays
   a BMP image via SDL.
-- `media/MatovGUI2001.png` -- a screenshot of the computer vision GUI
+- [`media/MatovGUI2001.png`](media/MatovGUI2001.png) -- a screenshot of the computer vision GUI
   demonstrating detection of primitive shapes (lines, circles, and
   ellipses) in an image.
 - `reports/` -- a conference poster PDF.
