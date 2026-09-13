@@ -1,6 +1,6 @@
 ## LineDetectionCombinatorial
 
-C++ code I wrote for a graphical user interface of a fast line detection computer vision algorithm (see the PLIME folder) developed in the lab of Daniel Mlynek, PhD (Integrated Systems Laboratory) at the EPFL.
+C++ code I wrote for a graphical user interface (GUI) of a fast line detection computer vision algorithm (see the PLIME folder) developed in the lab of Daniel Mlynek, PhD (Integrated Systems Laboratory) at the EPFL.
 
 ## Quick start
 
